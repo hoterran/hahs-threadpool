@@ -1,9 +1,9 @@
 #ifndef _THREADPOOL_
 #define _THREADPOOL_
 
-#define MAX_POOL	800
-#define INIT_POOL	700
-#define STACKSIZE	1048576			//must larget than 16384
+#define MAX_POOL	200
+#define INIT_POOL	20
+#define STACKSIZE	1048576
 
 typedef void (*func_pointer) (void *);
 

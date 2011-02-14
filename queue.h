@@ -1,7 +1,7 @@
 #ifndef _QUEUE_H_
 #define _QUEUE_H_
 
-#define QUEUE_SIZE 20000
+#define QUEUE_SIZE 2000
 
 typedef void (*fp) (void *);
 
